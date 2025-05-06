@@ -9,7 +9,7 @@ body {
 .main-container {
     display: flex;
     flex-direction: column;    
-    background-image: url('fondo.jpg');               
+    background-image: url('https://jassen-18.github.io/pa1/fondo.jpg');               
 }
 
 .header {    
