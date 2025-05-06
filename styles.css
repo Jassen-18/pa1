@@ -9,7 +9,7 @@ body {
 .main-container {
     display: flex;
     flex-direction: column;    
-    background-image: url('imagenes/fondo.jpg');               
+    background-image: url('fondo.jpg');               
 }
 
 .header {    
