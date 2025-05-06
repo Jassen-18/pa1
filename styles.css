@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;    
+    background-image: url('imagenes/fondo.jpg');               
+}
+
+.header {    
+    color: darkcyan;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px;    
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.section-border {
+    padding: 20px;
+    margin: 20px;    
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 20px;   
+}
+
+h2 {
+    color: #333;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;    
+}
+
+.flex-item {
+    flex: 1;
+    min-width: 200px;
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 20px;   
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+}
+
+.flex-orange {
+    flex: 1;
+    min-width: 200px;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+}
+
+.flex-blue {
+    flex: 1;
+    min-width: 200px;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+}
+
+.flex-green {
+    flex: 1;
+    min-width: 200px;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+}
+
+.flex-casa {
+    flex: 1;
+    min-width: 200px;    
+    padding: 20px;        
+    text-align: center;    
+}
+.flex-footer {
+    flex: 1;
+    min-width: 200px;    
+    padding: 20px;        
+    margin: 20px;      
+    text-align: center;        
+}
+.footer-image {
+    height: 300px;
+    width: 300px;
+}
+
+.shadow {
+     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+     background-color: white;   
+     color: black;
+     padding: 20px;        
+    margin: 20px;  
+}
+
+.highlight-orange {
+    background-color: orange;
+    color: white;
+    padding: 5px;    
+}
+.highlight-blue {
+    background-color: blue;
+    color: white;
+    padding: 5px;    
+}
+.highlight-green {
+    background-color: green;
+    color: white;
+    padding: 5px;    
+}
+    
+
+
+.icon {
+    height: 80px;
+    width: 80px;
+}
+
+.icon-chico {
+    height: 15px;
+    width: 15px;
+}
+.footer {    
+    color: #fff;    
+    text-align: center;
+    padding: 10px;
+}
